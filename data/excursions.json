@@ -1,26 +1,43 @@
 {
   "excursions": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Tatry",
       "description": "Wędrówka po pięknych górach.",
       "price_adult": 120,
       "price_child": 70
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Krakow",
       "description": "Wędrówka po rynku.",
       "price_adult": 50,
       "price_child": 20
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Riverrafting",
       "description": "Riverrafting w Alpach.",
       "price_adult": 1500,
       "price_child": 1300
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "mdkg1ugd",
+      "user": {
+        "name": "wew www",
+        "email": "www@ww.com"
+      },
+      "totalPrice": 480,
+      "subOrders": [
+        {
+          "id": "mdkg1nyo",
+          "excursionId": 1,
+          "adults": 4,
+          "children": 0
+        }
+      ]
+    }
+  ]
 }

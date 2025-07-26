@@ -8,6 +8,20 @@ class ExcursionsAPI {
     const excursions = await response.json();
     return excursions;
   }
+  async postOrder(orderData) {
+    const obj = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(orderData),
+    };
+    const response = await fetch(this.apiUrlOrders, obj);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return await response.json();
+  }
 }
 
 export default ExcursionsAPI;
