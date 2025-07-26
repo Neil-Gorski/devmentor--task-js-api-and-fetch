@@ -22,22 +22,5 @@
       "price_child": 1300
     }
   ],
-  "orders": [
-    {
-      "id": "mdkg1ugd",
-      "user": {
-        "name": "wew www",
-        "email": "www@ww.com"
-      },
-      "totalPrice": 480,
-      "subOrders": [
-        {
-          "id": "mdkg1nyo",
-          "excursionId": 1,
-          "adults": 4,
-          "children": 0
-        }
-      ]
-    }
-  ]
+  "orders": []
 }

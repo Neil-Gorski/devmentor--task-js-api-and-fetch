@@ -1,5 +1,5 @@
-import './../css/admin.css';
+import "./../css/admin.css";
 
-import ExcursionsAPI from './ExcursionsAPI';
+import ExcursionsAPI from "./modules/ExcursionsAPI";
 
-console.log('admin');
+console.log("admin");
