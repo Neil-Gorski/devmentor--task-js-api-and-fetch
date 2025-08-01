@@ -22,6 +22,20 @@ class ExcursionsAPI {
     }
     return await response.json();
   }
+  async patchExcursion(excursion) {
+    const obj = {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(excursion),
+    };
+    try {
+      await fetch(`${this.apiUrlExcursoions}/${excursion.id}`, obj);
+    } catch (error) {
+      console.error("Upload faild:", error);
+    }
+  }
 }
 
 export default ExcursionsAPI;

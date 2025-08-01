@@ -2,10 +2,10 @@
   "excursions": [
     {
       "id": "1",
-      "title": "Tatry",
+      "title": "Tatry 2",
       "description": "Wędrówka po pięknych górach.",
-      "price_adult": 120,
-      "price_child": 70
+      "price_adult": "140",
+      "price_child": "400"
     },
     {
       "id": "2",
@@ -18,8 +18,8 @@
       "id": "3",
       "title": "Riverrafting",
       "description": "Riverrafting w Alpach.",
-      "price_adult": 1500,
-      "price_child": 1300
+      "price_adult": "2000",
+      "price_child": "1300"
     }
   ],
   "orders": []
